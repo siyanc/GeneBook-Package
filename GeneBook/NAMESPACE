@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("utils", "read.csv", "write.table")
+if(.Platform$OS.type == "windows"){
+  importForm("utils", "choose.dir")
+}

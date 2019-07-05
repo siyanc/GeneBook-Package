@@ -1,0 +1,28 @@
+Package: GeneBook
+Type: Package
+Title: An R Package for Converting/Annotating 
+       Multi-types Gene ID
+Version: 1.0
+Date: 2019-06-26
+Author: Li Xu, Zhang Wen, Siyan Chen
+Maintainer: LI Xu <tsl-lixu@tasly.com>
+Description: An implementation of the advanced gene 
+             search in R.This package has basic 
+             annotation information which contains 
+             Ensembl gene ID, HGNC gene ID, Entrez 
+             gene ID, Symbol gene ID. Also, it contains 
+             a relative intact gene database which was
+             obtained from GeneCards: The Human Gene Database.
+             It allows users to search gene symbol or Alias and 
+             convert gene interested to the consistent gene 
+             symbols. It also provides users with gene WIKI 
+             introduction.
+NeedsCompilation: no
+Depends: R (>= 3.5.0)
+Imports: dplyr,
+         stringr,
+         svDialogs
+Additional_repositories: https://CRAN.R-project.org/src/contrib/PACKAGES
+License: GPL (>=3.0)
+LazyData: true
+Packaged: 2019-06-26 08:28:10 UTC; Administrator
